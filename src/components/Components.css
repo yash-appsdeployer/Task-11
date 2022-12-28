@@ -1,0 +1,12 @@
+.products-grid{
+    width:auto;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(200px,1fr));
+    gap: 40px;
+    margin: 20px;
+}
+.card-w{
+    width: 280px;
+    height: fit-content;
+    padding: 15px;
+}
